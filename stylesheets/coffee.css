@@ -3,3 +3,42 @@ Shaun Khang
 03/05/2025
 */
 
+h2 {
+    /* why did i need ../images */
+    background-image: url("../images/beansBanner.jpg");
+    background-size: cover;
+    color: #FFFFFF;
+    padding: 1rem;
+    border-radius: 2.5rem 2.5rem 0 0;
+    border-bottom: 0.25rem solid #2E1B11;
+    /* x offset, y offset, blur radius, color */
+    text-shadow: 1px 1px 2px black;
+}
+
+ul {
+    line-height: 2rem;
+}
+
+table {
+    width: 90%;
+    justify-content: center;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1rem solid #FFFFFF;
+    padding: 1rem;
+    background-color: #F7E8DE;
+    margin: 0;
+}
+
+th {
+    background-color: #2E1B11;
+    color: #FFFFFF;
+    padding: 1rem;
+    border-radius: .5rem .5rem 0 0;
+}
+
+.size {
+    width: 10%;
+}

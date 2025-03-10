@@ -2,3 +2,23 @@
 Shaun Khang
 03/05/2025
 */
+
+/* CLASSES */
+#index-mug {
+    border: 0.25rem solid #FFFFFF;
+    box-shadow: 1rem black;
+    width: 50%;
+    margin: 0.25rem;
+    float: right;
+}
+
+aside h2{
+    text-align: center;
+}
+
+aside {
+    background-color: #D6CBC0;
+    padding: 0.25rem;
+    border: 0.15rem solid #A87B50;
+    border-radius: 0.50rem;
+}

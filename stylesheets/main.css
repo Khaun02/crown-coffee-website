@@ -2,3 +2,98 @@
 Shaun Khang
 03/05/2025
 */
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #2E1B11;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2rem 0;
+    border-top: 0.25rem solid #ED4749;
+    border-bottom: 0.25rem solid #ED4749;
+}
+
+/* GENERAL LINKS */
+body a {
+    text-decoration: none;
+    color: #709F10;
+}
+
+body a:visited {
+    color: #A87B50;
+}
+
+body a:hover {
+    color: #ED4749;
+}
+
+/* TOP NAVIGATION LINKS */
+header nav a{
+    color: #ED4749;
+    text-decoration: none;
+}
+
+header a:visited {
+    color: #A87B50;
+}
+
+header a:hover {
+    color: #C39F89;
+    text-shadow: red;
+}
+
+main {
+    width: 55%;
+    margin: 2rem auto;
+}
+
+/* FOOTER */
+footer {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    background-color: #2E1B11;
+    color: #D6CBC0;
+    border-top: 0.25rem solid #ED4749;
+}
+
+footer address {
+    text-align: right;
+}
+
+/* HTML ELEMENENTS */
+
+h1 {
+    color: #FFFFFF;
+    font-weight: normal;
+    letter-spacing: 0.5rem;
+}
+
+h2{
+    color: #ED4749;
+}
+
+/* CLASSES */
+.logo {
+    width: 250px;
+}
+
+.top {
+    width: 50px;
+}
+
+.hours {
+    background-color: #FFFFFF;
+    padding: 1rem;
+    border: 0.25rem solid #A87B50;
+    border-radius: 10px;
+}
+
+.hours:hover {
+    color:#ED4749
+}
