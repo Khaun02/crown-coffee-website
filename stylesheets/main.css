@@ -74,13 +74,17 @@ h1 {
     letter-spacing: 0.5rem;
 }
 
-h2, h3, h4, h5, h6 {
+h2{
     color: #ED4749;
 }
 
 /* CLASSES */
 .logo {
     width: 250px;
+}
+
+.top {
+    width: 50px;
 }
 
 .hours {
