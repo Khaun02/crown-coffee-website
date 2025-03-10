@@ -33,6 +33,28 @@
         <section>
             <h2>Crown Coffee Subscription</h2>
             <p>Prefer to enjoy your coffee at home? No problem! Sign up for our Coffee Club and get the best coffee delivered right to your door.</p>
+            <p>An asterisk denotes a required field.</p>
+
+            <form name="clubForm" action="http://itins3.madisoncollege.edu/echo.php" method="post">
+                <label for="name">Name*</label>
+                <input type="text" id="name">
+
+                <label for="email">Email*</label>
+                <input type="email" id="email">
+
+                <label for="password">Password*</label>
+                <input type="password" id="password">
+
+                <fieldset>
+                    <legend>Regular or Decaf?</legend>
+                    <input type="radio" id="regular">
+                    <label for="regular">Regular</label>
+                    <input type="radio" id="Decaf">
+                    <label for="Decaf">Decaf</label>
+                </fieldset>
+                <label for="additionalComments">Additional Comments</label>
+                <textarea name="additionalComments" id="additionalComments"></textarea>
+            </form>
         </section>
     </main>
 
