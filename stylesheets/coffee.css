@@ -21,12 +21,13 @@ ul {
 
 table {
     width: 90%;
-    justify-content: center;
+    /* Center the table to the <main> element */
+    margin: 0 auto;
     border-collapse: collapse;
 }
 
 td {
-    border: 1rem solid #FFFFFF;
+    border: 0.25rem solid #FFFFFF;
     padding: 1rem;
     background-color: #F7E8DE;
     margin: 0;
