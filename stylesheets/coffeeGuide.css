@@ -2,3 +2,21 @@
 Shaun Khang
 03/05/2025
 */
+
+main img {
+    float: left;
+    margin-right: 1rem;
+}
+
+p {
+    margin-top: 3rem;
+}
+
+article {
+    width: 100%;
+    float: left;
+    padding: 1rem;
+    margin: 3rem auto;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 25px;
+}
