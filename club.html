@@ -36,24 +36,42 @@
             <p>An asterisk denotes a required field.</p>
 
             <form name="clubForm" action="http://itins3.madisoncollege.edu/echo.php" method="post">
-                <label for="name">Name*</label>
-                <input type="text" id="name">
+                <label for="name">*Name</label>
+                <input type="text" id="name" name="name" required>
 
-                <label for="email">Email*</label>
-                <input type="email" id="email">
+                <label for="email">*Email</label>
+                <input type="email" id="email" name="email" required>
 
-                <label for="password">Password*</label>
-                <input type="password" id="password">
+                <label for="password">*Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <label for="">Type of Bean</label>
+                <select name="" id="">Ground</select>
+                <select name="" id="">Whole</select>
+                <select name="" id="">Rounds</select>
 
                 <fieldset>
                     <legend>Regular or Decaf?</legend>
                     <input type="radio" id="regular">
                     <label for="regular">Regular</label>
+                    <br>
                     <input type="radio" id="Decaf">
                     <label for="Decaf">Decaf</label>
+                    <br>
                 </fieldset>
+
+                <fieldset>
+                    <legend>Type of Roast</legend>
+                    <select name="" id=""></select>
+                </fieldset>
+                
                 <label for="additionalComments">Additional Comments</label>
                 <textarea name="additionalComments" id="additionalComments"></textarea>
+
+                <div class="button-container">
+                    <input type="submit">
+                    <input type="reset">
+                </div>
             </form>
         </section>
     </main>
