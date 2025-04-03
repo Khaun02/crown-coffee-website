@@ -45,10 +45,13 @@
                 <label for="password">*Password</label>
                 <input type="password" id="password" name="password" required>
 
-                <label for="">Type of Bean</label>
-                <select name="" id="">Ground</select>
-                <select name="" id="">Whole</select>
-                <select name="" id="">Rounds</select>
+                <label for="beanType">Type of Bean</label>
+                <select id="beanType" name="beanType">
+                    <option value="GR">Grounds</option>
+                    <option value="WH">Whole</option>
+                    <option value="RH">Round</option>
+                </select>
+                <br><br>
 
                 <fieldset>
                     <legend>Regular or Decaf?</legend>
@@ -56,21 +59,49 @@
                     <label for="regular">Regular</label>
                     <br>
                     <input type="radio" id="Decaf">
-                    <label for="Decaf">Decaf</label>
+                    <label for="Decaf">Decaffeinated</label>
                     <br>
                 </fieldset>
+                <br><br>
 
                 <fieldset>
                     <legend>Type of Roast</legend>
-                    <select name="" id=""></select>
+                    <input type="checkbox" id="grogg" name="grogg" value="HG">
+                    <label for="grogg">Highlander Grogg</label>
+                    <br>
+                    <input type="checkbox" id="swirl" name="swirl" value="CS">
+                    <label for="swirl">Cinnamon Swirl</label>
+                    <br>
+                    <input type="checkbox" id="cream" name="cream" value="HC">
+                    <label for="cream">Hazelnut Cream</label>
+                    <br>
+                    <input type="checkbox" id="vanilla" name="vanilla" value="FV">
+                    <label for="vanilla">French Vanilla</label>
+                    <br>
+                    <input type="checkbox" id="nut" name="nut" value="BN">
+                    <label for="nut">Blueberry Nut</label>
+                    <br>
+                    <input type="checkbox" id="caramel" name="caramel" value="BC">
+                    <label for="caramel">Banana Caramel</label>
+                    <br>
+                    <input type="checkbox" id="cherry" name="cherry" value="CC">
+                    <label for="cherry">Chocolate Cherry</label>
+                    <br>
+                    <input type="checkbox" id="toffee" name="toffee" value="ET">
+                    <label for="toffee">English Toffee</label>
+                    <br>
+                    <input type="checkbox" id="raspberry" name="raspberry" value="VR">
+                    <label for="raspberry">Vanilla Raspberry</label>
+                    <br>
                 </fieldset>
+                <br><br>
                 
                 <label for="additionalComments">Additional Comments</label>
                 <textarea name="additionalComments" id="additionalComments"></textarea>
 
-                <div class="button-container">
-                    <input type="submit">
-                    <input type="reset">
+                <div id="button-container">
+                    <input type="submit" value="Order Now!">
+                    <input type="reset" value="Clear Form">
                 </div>
             </form>
         </section>
