@@ -29,6 +29,7 @@
     </header>
 
     <main>
+
         
         <section>
             <h2>Hours</h2>
@@ -36,12 +37,41 @@
             <p>Sat: 6:30am to 6:00pm</p>
             <p>Sun: 7:30am to 2:00pm</p>
         </section>
-
+        
         <section>
             <h2>Location</h2>
             <p>641 Marketplace Dr. Madison, WI</p>
             <a href="tel:608-442-0452">608-442-0452</a>
         </section>
+
+        <section>
+            <h2>Contact Us</h2>
+            <p>Any questions? Write out a message to us and we'll let get back to you within 1-2 business days.</p>
+            <p>An asterisk denotes a required field.</p>
+        </section>
+
+        <form action="http://itins3.madisoncollege.edu/echo.php" method="post">
+
+            <label for="name">*Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">*Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input type="phone" id="phone" name="phone" maxlength="10">
+
+            <label for="subject">*Subject</label>
+            <input type="subject" id="subject" name="subject" required>
+
+            <label for="message">*Message</label>
+            <textarea name="message" id="message" required></textarea>
+
+            <div id="button-container">
+                <input type="submit" value="Send Message">
+                <input type="reset" value="Clear Form">
+            </div>
+        </form>
     </main>
 
     <footer>

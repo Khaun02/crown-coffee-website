@@ -2,3 +2,74 @@
 Shaun Khang
 03/05/2025
 */
+
+/* 
+Shaun Khang
+03/05/2025
+*/
+
+form {
+    background-color: #D6CBC0;
+    border-radius: 2rem;
+    padding: 2rem
+}
+
+/* inputs */
+
+input, select, textarea {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+input {
+    display: block;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    display: inline-block;
+}
+
+/* textarea */
+
+textarea {
+    width: 100%;
+    height: 15rem;
+    border-radius: 0.75rem;
+    border: 0.1rem solid #A87B50;
+}
+
+/* Fieldset & Legend */
+
+fieldset {
+    border: 0.1rem solid #A87B50;
+    border-radius: 0.75rem;
+    padding: 2rem;
+    margin: 0.5rem;
+    width: 90%;
+}
+
+legend {
+    font-weight: bold;
+}
+
+/* Submit/Clear Form Buttons */
+
+div#button-container {
+    text-align: center;
+}
+
+input[type="submit"], input[type="reset"] {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: .7em;
+    padding: 1em;
+    font-weight: bold;
+    background-color: #A87B50;
+    color: white;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #630c15;
+    color: white;
+}
+
