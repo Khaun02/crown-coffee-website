@@ -44,7 +44,7 @@ header a:visited {
 
 header a:hover {
     color: #C39F89;
-    text-shadow: red;
+    text-shadow: 1px 1px 2px white;
 }
 
 main {
