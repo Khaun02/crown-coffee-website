@@ -6,9 +6,9 @@ Shaun Khang
 /* CLASSES */
 #index-mug {
     border: 0.25rem solid #FFFFFF;
-    box-shadow: 1rem black;
+    box-shadow: 5px 5px 25px;
     width: 50%;
-    margin: 0.25rem;
+    margin: 2rem;
     float: right;
 }
 
