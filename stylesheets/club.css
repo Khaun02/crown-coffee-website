@@ -63,7 +63,7 @@ input[type="submit"], input[type="reset"] {
     color: white;
 }
 
-input[type="submit"]:hover, input[type="reset"]:hover {
+.form-button:hover {
     background-color: #630c15;
     color: white;
 }

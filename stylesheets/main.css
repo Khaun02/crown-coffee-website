@@ -54,9 +54,7 @@ main {
 
 /* FOOTER */
 footer {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
+    padding: 0 1rem 1rem 1rem;
     background-color: #2E1B11;
     color: #D6CBC0;
     border-top: 0.25rem solid #ED4749;

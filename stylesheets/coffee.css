@@ -4,7 +4,6 @@ Shaun Khang
 */
 
 h2 {
-    /* why did i need ../images */
     background-image: url("../images/beansBanner.jpg");
     background-size: cover;
     color: #FFFFFF;
